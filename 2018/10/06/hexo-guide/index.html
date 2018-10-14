@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="谷绎衡的网站">
 <meta property="og:description" content="电脑设置 输入英文时, 中文输入法的 标点符号 全/半角需要选择成为半角. 点击 逗号/句号 图标就可以切换, 半角为实心.  本地模拟地址 http://localhost:4000 编辑文章使用 Geany ctrl-s 保存  Geany 操作说明文件夹说明 博客文件夹地址 /home/pi/yiheng/">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-13T03:12:02.462Z">
+<meta property="og:updated_time" content="2018-10-14T02:14:06.224Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO入门基础">
 <meta name="twitter:description" content="电脑设置 输入英文时, 中文输入法的 标点符号 全/半角需要选择成为半角. 点击 逗号/句号 图标就可以切换, 半角为实心.  本地模拟地址 http://localhost:4000 编辑文章使用 Geany ctrl-s 保存  Geany 操作说明文件夹说明 博客文件夹地址 /home/pi/yiheng/">
@@ -101,9 +101,46 @@
 <li>双击文件, 可以打开文章文件.</li>
 </ol>
 <h3 id="终端操作"><a href="#终端操作" class="headerlink" title="终端操作"></a>终端操作</h3><ol>
-<li><p>输入<code>pwd</code>, 查看所在目录. 需要确保在下面这个目录中.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pi@YiHengPC:~/yiheng $ <span class="built_in">pwd</span></span><br><span class="line">/home/pi/yiheng</span><br></pre></td></tr></table></figure>
+<li>输入<code>pwd</code>, 查看所在目录. 需要确保在下面这个目录中.<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pi@YiHengPC:~/yiheng $ <span class="built_in">pwd</span></span><br><span class="line">/home/pi/yiheng</span><br></pre></td></tr></table></figure>
 </li>
+</ol>
+<h3 id="HEXO-常用命令"><a href="#HEXO-常用命令" class="headerlink" title="HEXO 常用命令"></a>HEXO 常用命令</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">参数</th>
+<th style="text-align:left">功能</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">hexo</td>
+<td style="text-align:center">s</td>
+<td style="text-align:left">启动本地服务</td>
+<td style="text-align:left">s为server的缩写</td>
+</tr>
+<tr>
+<td style="text-align:center">hexo</td>
+<td style="text-align:center">g</td>
+<td style="text-align:left">生成本地新创建的网页</td>
+<td style="text-align:left">g为generate的缩写</td>
+</tr>
+<tr>
+<td style="text-align:center">hexo</td>
+<td style="text-align:center">d</td>
+<td style="text-align:left">将本地的网页上传到github</td>
+<td style="text-align:left">d为deploy的缩写</td>
+</tr>
+<tr>
+<td style="text-align:center">hexo</td>
+<td style="text-align:center">new xxx</td>
+<td style="text-align:left">在本地新建名称为 xxx 的文章</td>
+<td style="text-align:left">xxx.md 文件就会创建在 _posts 目录下</td>
+</tr>
+</tbody>
+</table>
+<ol start="2">
 <li><p>启动 网页服务 程序 <code>hexo s</code> 或 <code>hexo server</code>, 得到下面的提示后,可以在<code>http://localhost:4000</code>打开查看. </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pi@YiHengPC:~/yiheng $ hexo s</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
 </li>
@@ -121,7 +158,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yh.younggu.xyz/2018/10/06/hexo-guide/" data-id="cjn861xhb0003f5lf359ihnfe" class="article-share-link">Share</a>
+      <a data-url="http://yh.younggu.xyz/2018/10/06/hexo-guide/" data-id="cjn864wil0003gklf2grl50at" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
